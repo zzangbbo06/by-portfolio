@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<!-- reset.css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+
+<!-- 구글 웹폰트 연결 -->
+  <!-- 경량화된 오픈 라이선스, 폰트, 한글 지원하는지 확인 및 필요한 굵기 선택 후 연결 -->
+  <!-- 한글 : Noto Sans Krean, 영문: Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <!-- 구글 머티리얼 아이콘 연결 -->
+  <!-- 구글 제공하는 아이콘, 글자처럼 취급 가능한 장점 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <!-- swiper 연결 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- main.css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- swiper 연결 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- main.js -->
+  <script defer src="./js/main.js"></script>
+
+</head>
+<body>
+  <div style="overflow-x: hidden;">
+  <header>
+    <div id="header">
+      <div class="inner">
+          <div>
+            <h1><a href="index.html" class="font-en">BBO'S PORTFOLIO</a></h1>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#about" class="font-en">ABOUT</a>
+              </li>
+              <li>
+                <a href="#skill" class="font-en">SKILL</a>
+              </li>
+              <li>
+                <a href="#project" class="font-en">PROJECT</a>
+              </li>
+              <li>
+                <a href="#contact" class="contact-btn font-en">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- 햄버거 버튼(메튜) -->
+       <!-- 눌러도 아무 작동도 안하도록 하는것 -->
+      <a href="javascript:void(0)" class="btn-hamburger">
+        <span class="material-symbols-outlined">menu</span>
+      </a>
+    </div>
+  </div>
+  </header>
+     
+  
+  <section class="visual">
+      <div class="inner">
+        <h1 class="font-en">
+          <!-- <span class="">반</span>
+          <span class="">짝</span>
+            <span class="">반</span>
+            <span class="">짝</span>
+          &nbsp;
+            <span class="animate-move purple">빛</span>
+            <span class="animate-rotate purple">나</span>
+            <span class="animate-rotate purple">는</span>
+          <br>-->
+          
+            <span class="animate-move" style= "animation-duration: 6.3s;">F</span> 
+            <span class="animate-move" style= "animation-duration: 6.0s">u</span>
+            <span class="animate-move" style= "animation-duration: 5.7s">l</span>
+            <span class="animate-move" style= "animation-duration: 5.4s">l</span>
+          &nbsp;
+            <span class="animate-move" style="animation-duration: 5.1s;">S</span>
+            <span class="animate-move" style="animation-duration: 4.8s;">t</span>
+            <span class="animate-move" style="animation-duration: 4.5s;">a</span>
+            <span class="animate-move" style="animation-duration: 4.2s;">c</span>
+            <span class="animate-move" style="animation-duration: 3.9s;">k</span>
+            &nbsp;
+            <span class="animate-move purple"style="animation-duration: 3.6s;">D</span>
+            <span class="animate-move purple"style="animation-duration: 3.3s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 3.0s;">v</span>
+            <span class="animate-move purple"style="animation-duration: 2.7s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 2.4s;">l</span>
+            <span class="animate-move purple"style="animation-duration: 2.1s;">o</span>
+            <span class="animate-move purple"style="animation-duration: 1.8s;">p</span>
+            <span class="animate-move purple"style="animation-duration: 1.5s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 1.2s;">r</span>
+            <br>
+          
+            <span class="animate-move purple"style="animation-duration: 6.3s;">장</span>
+            <span class="animate-move purple"style="animation-duration: 3.55s;">보</span>
+            <span class="animate-move purple"style="animation-duration: 1.2s;">영</span>
+          
+            <!-- <span class="animate-move">입</span>
+            <span class="animate-move">니</span>
+            <span class="animate-move">다</span>
+            <span class="animate-move">.</span> -->
+
+            <!-- <span class="animate-move" style= "animation-duration: 1.2s;">F</span>
+            <span class="animate-move" style= "animation-duration: 1.5s">u</span>
+            <span class="animate-move" style= "animation-duration: 1.8s">l</span>
+            <span class="animate-move" style= "animation-duration: 2.1s">l</span>
+          &nbsp;
+            <span class="animate-move" style="animation-duration: 2.4s;">S</span>
+            <span class="animate-move" style="animation-duration: 2.7s;">t</span>
+            <span class="animate-move" style="animation-duration: 3.0s;">a</span>
+            <span class="animate-move" style="animation-duration: 3.3s;">c</span>
+            <span class="animate-move" style="animation-duration: 3.6s;">k</span>
+            &nbsp;
+            <span class="animate-move purple"style="animation-duration: 3.9s;">D</span>
+            <span class="animate-move purple"style="animation-duration: 4.2s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 4.5s;">v</span>
+            <span class="animate-move purple"style="animation-duration: 4.8s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 5.2s;">l</span>
+            <span class="animate-move purple"style="animation-duration: 5.5s;">o</span>
+            <span class="animate-move purple"style="animation-duration: 5.8s;">p</span>
+            <span class="animate-move purple"style="animation-duration: 6.2s;">e</span>
+            <span class="animate-move purple"style="animation-duration: 6.5s;">r</span>
+            <br>
+            <span class="animate-move purple"style="animation-duration: 6.3s;">장</span>
+            <span class="animate-move purple"style="animation-duration: 6.0s;">보</span>
+            <span class="animate-move purple"style="animation-duration: 5.7s;">영</span> -->
+        </h1>
+      </div>
+    </section>
+<!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="inner">
+      <h2 class="title font-en">ABOUT ME</h2>
+      <div>
+      <ul class="about__first">
+        <li>
+          <span class="material-symbols-outlined">id_card</span>
+          장보영
+        </li>
+        <li>
+          <span class="material-symbols-outlined">history</span>
+          1998.06.23
+        </li>
+      </ul> 
+      <ul class="about__last">
+        <li>
+          <span class="material-symbols-outlined">location_on</span>
+          경기도 광명시
+        </li>
+        <li>
+          <span class="material-symbols-outlined">school</span>
+          한국공학대 전자공학과
+        </li>
+      </ul> 
+      <p class="slogan"></p>
+    </div>
+    </div>`
+   </section>
+
+  <section id="skill" class="skill">
+    <div class="skill-content">
+      <div class="skill-title">
+          
+        <h3 class="title"><span class="material-symbols-outlined">person_play</span>SKILL</h3>
+      </div>
+    <div class= "skill-trees">    
+      <div class = "skill-tree">
+        <div>
+          <span class="material-symbols-outlined">language</span>
+          <h4>Language</h4>
+        </div>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class = "skill-tree">
+        <div>
+          <span class="material-symbols-outlined">front_hand</span>
+          <h4>Frontend</h4>
+        </div>
+        <ul>
+          <li>React</li>
+          <li>Vue</li>
+        </ul>
+      </div>
+      <div class = "skill-tree">
+        <div>
+          <span class="material-symbols-outlined">storage</span>
+          <h4>Backend</h4>
+        </div>
+        <ul>
+          <li>Spring</li>
+          <li>Django</li>
+        </ul>
+        </div>
+     </div>
+    </div>
+  </section>
+
+    <!-- PROJECT -->
+    <section id="project" class="project font-en">
+      <div class="inner">
+        <h2 class="title">PROJECT</h2>
+        <div class="port">
+          <div class="port__img">
+          <!-- Slider main container -->
+            <div class="swiper">
+          <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/portfolio(1).png" alt="1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/portfolio(2).jpg" alt="2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/portfolio(3).png" alt="3">
+              </div>
+              </div>
+              <div class="swiper-pagination"></div>  
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="port__text">
+            <h3>나만의 포트폴리오 만들기</h3>
+            <ul>
+              <li><span>주요 기능 : </span>나만의 포트폴리오 만들기</li>
+              <li><span>적용 기술 : </span>HTML, CSS, JS</li>
+              <li><span>GitHub : </span>zzangbbo0623@gmail.com</li>
+              <li><span>URL : </span><a href="https://bboyeong-portfolio.netlify.app/">bboyeong-portfolio</a></li>
+            </ul>       
+            <div class="btn-group">
+            <a href="javascript:void(0)" class="btn btn-modal">README</a>
+            <a href="javascript:void(0)" class="btn btn-modal-image"
+            data-image-src="images/portfolio(1).png">이미지</a>
+            </div>
+          </div>
+        </div>
+        <div class="port">
+          <div class="port__img">
+          <!-- Slider main container -->
+            <div class="swiper">
+          <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/신짱구.png" alt="1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/철수.jpg" alt="2">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/맹구.jpg" alt="3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/유리.jpg" alt="3">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/훈이.jpg" alt="3">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>  
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="port__text">
+            <h3>짱구는 못말려</h3>
+            <ul>
+              <li><span>주요 기능 : </span>짱구,철수, 맹구, 유리, 훈이</li>
+              <li><span>적용 기술 : </span>엉덩이로 이동하기</li>
+              <li><span>GitHub : </span>떡잎마을 방법대</li>
+              <li><span>URL : </span>떡잎마을</li>
+            </ul>       
+            <div class="btn-group">
+            <a href="javascript:void(0)" class="btn btn-modal font-en">README</a>
+            <a href="javascript:void(0)" class="btn btn-modal-image">이미지</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- CONTACT -->
+    <!-- <section id="contact" class="contact font-en scroll-spy">
+      <div class="inner">
+        <h2 class="title">CONTACT</h2>
+        <div class="contact__info">
+          <ul>
+            <li>
+              <a href="https://github.com/zzangbbo06" target="_blank">github.com/zzangbbo06</a>
+            </li>
+            <li>010-4392-2598-</li>
+            <li>jangbo0623@naver.com</li>
+          </ul>
+        </div>
+        <div class="contact__sns">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/yxxng._.xo/" target="_blank">
+                <img src="images/icon/icon_insta.png" alt="인스타그램">
+              </a>
+            </li>
+            <li>
+              <a href="#유튜브주소" target="_blank">
+                <img src="images/icon/icon_youtube.png" alt="유튜브">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+    <footer>
+      <div class="inner">
+        <p class="copyright">
+          &copy; <span class="this-year"></span>
+          <span class="font-en">Jang BO Yeong. All Rights Reserved.</span>
+        </p>
+      </div>
+    </footer>
+      </div>
+    
+    <!-- Modal -->
+    <div id="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          README
+          <span class="material-symbols-outlined btn-close">close</span>
+        </div>
+        <div class="modal-body">
+          <p>나만의 포트폴리오를 만들어서 취업하자!!</p>
+        </div>
+      </div>
+    </div>
+    <div id="imageModal">
+      <div class="imageModal-content">
+        <div class="imageModal-header">
+          이미지
+          <span class="material-symbols-outlined btn-close">close</span>
+        </div>
+        <div class="imageModal-body">
+          <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs" alt="더미데이터">
+        </div>
+      </div>
+    </div>
+    <div id="contactModal">
+      <div class="contactModal-content">
+        <div class="contactModal-header">
+          CONTACT
+          <span class="material-symbols-outlined btn-close">close</span>
+        </div>
+        <div class="contactModal-body">
+          <ul>
+            <li>
+              <span class="material-symbols-outlined">mail</span>
+            jangbo0623@naver.com</li>
+            <li><span class="material-symbols-outlined">smartphone</span>
+            010-4392-2598</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://github.com/zzangbbo06" target="_blank">
+                <img src="./images/github.png" alt="github">
+            </li>
+            <li>
+              <a href="https://www.instagram.com/yxxng._.xo/" target="_blank">
+                <img src="images/icon/icon_insta.png" alt="인스타그램">
+              </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- SCROLL TO TOP -->
+<div id="to-top">
+  <a href="#">
+    <span class="material-symbols-outlined">arrow_upward</span>
+  </a>
+</div>
+</div>
+</body>
+</html>
